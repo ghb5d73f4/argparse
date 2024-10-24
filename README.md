@@ -18,9 +18,9 @@ The library provides utility functions to handle flags, integers, floats, and st
 
 To use this utility in your project:
 
-- Clone this repository.
-- Include `argparse.h` in your project.
-- Compile `argparse.cpp` along with your main program.
+Clone this repository or download the files from the `src` subdirectory.
+
+Include `argparse.h` in your project, add `argparse.cpp` in the file to compile and link with the project.
 
 ### Function Descriptions
 
@@ -63,6 +63,12 @@ int main(int argc, const char* argv[]) {
     return 0;
 }
 ```
+
+## Disclaimer
+
+The code is provided *as is* with no guarantee of working in any condition.
+Adapt the use to your own need.
+The arrays and buffer allocated by calling the functions are your responsibility to free once they are not used anymore.
 
 ## License
 
